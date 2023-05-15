@@ -9,26 +9,48 @@
     </head>
     <body>
         <main>
-            <div>
+            <h1>
+                Calcola il prezzo del tuo Fantabiglietto!
+            </h1>
+
+            <h2>
+                Sconto viaggiatore Junior: sotto i 18 anni risparmi il 19.4% del prezzo finale.
+            </h2>
+
+            <h2>
+                Sconto viaggiatore Senior: sopra i 65 anni risparmi il 37.7 del prezzo finale.
+            </h2>
+
+            <div class="blueBox">
                 <label for="userInputJourney">
                     Inserisci qui la tratta che vuoi percorrere
                 </label>
+
+                <br>
     
-                <input type="number" name="userInputJourney" id="userInputJourney">
+                <input type="number" name="userInputJourney" id="userInputJourney"><span>km</span>
             </div>
             
             
-            <div>
+            <div class="blueBox">
                 <label for="userInputAge">
                     Inserisci qui la tua età
                 </label>
+
+                <br>
     
-                <input type="number" name="userInputAge" id="userInputAge">
+                <input type="number" name="userInputAge" id="userInputAge"><span>anni</span>
             </div>
             
             <a href="#" id="formInputButton">
-                Calcola il prezzo del tuo biglietto
+                Calcola
             </a>
+
+            <h3>Il prezzo del tuo biglietto è: </h3>
+
+            <h2 id="ticketCost">
+
+            </h2>
 
         </main>
 

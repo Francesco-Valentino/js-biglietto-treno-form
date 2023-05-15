@@ -26,6 +26,14 @@ formButton.addEventListener("click", function(){
         }
 
         console.log(ticketPrice);
+
+        ticketPrice = ticketPrice.toFixed(2);
+
+        document.getElementById("ticketCost").innerHTML += ticketPrice + "&euro;";
     }
 );
+
+
+
+
 
